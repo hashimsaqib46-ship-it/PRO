@@ -97,21 +97,36 @@
 
     <!-- ================= HERO SECTION ================= -->
     <!-- Added pt-28 so the content doesn't hide behind the fixed navbar -->
-    <section class="relative h-[70vh] w-full flex items-center justify-center overflow-hidden pt-28">
-        <div class="absolute inset-0 z-0">
-            <img alt="Compassionate healthcare professionals in a modern facility" class="w-full h-full object-cover"
-                data-alt="Modern mental health facility interior with natural light"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxVjfWLr1K6kZPsDxBJcJiyF09D6k3gokX1IsrU27B5_fxEFa--uDhytveHvDl590xSvHtKQY2quq-KxaP4VgMlBzRBCqOtowmXunKwOJDYAZs-yOzOhKmRXGmzveW60B1BfW48_8UFWBVRH9G2u3R63s-4gasz-E5w7o2a7-LUR5J5M-QKfPTwx_THzHLBHKmCmqMFJFmh6mafUmT_1uGWGsc1qktnbLQNwMH8pU7wlYDVxWDHh1EbLxgJ2nxXXioRrVmj_5rbBE" />
-            <div class="absolute inset-0 hero-gradient"></div>
-        </div>
-        <div class="relative z-10 text-center px-6 max-w-4xl">
-            <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight">Our Expert Team</h1>
-            <p class="text-xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed">
-                Meet the compassionate professionals dedicated to your recovery journey. We combine clinical excellence
-                with holistic empathy.
-            </p>
-        </div>
-    </section>
+  <section class="relative h-[70vh] w-full flex items-center justify-center overflow-hidden pt-28">
+    <!-- Background Image -->
+    <div class="absolute inset-0 z-0">
+        <img alt="Compassionate healthcare professionals in a modern facility" 
+            class="w-full h-full object-cover"
+            data-alt="Modern mental health facility interior with natural light"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxVjfWLr1K6kZPsDxBJcJiyF09D6k3gokX1IsrU27B5_fxEFa--uDhytveHvDl590xSvHtKQY2quq-KxaP4VgMlBzRBCqOtowmXunKwOJDYAZs-yOzOhKmRXGmzveW60B1BfW48_8UFWBVRH9G2u3R63s-4gasz-E5w7o2a7-LUR5J5M-QKfPTwx_THzHLBHKmCmqMFJFmh6mafUmT_1uGWGsc1qktnbLQNwMH8pU7wlYDVxWDHh1EbLxgJ2nxXXioRrVmj_5rbBE" />
+        <div class="absolute inset-0 hero-gradient"></div>
+    </div>
+    
+    <!-- Main Content with Back Button -->
+    <div class="relative z-10 text-center px-6 max-w-4xl">
+        <!-- Back to Home Link - Above Title -->
+        <a href="index.html" 
+           class="inline-flex items-center gap-2 text-white/70 hover:text-accent-gold mb-6 sm:mb-8 transition-colors duration-300 group">
+            <span class="material-symbols-outlined text-lg group-hover:-translate-x-1 transition-transform duration-300">
+                arrow_back
+            </span>
+            <span class="text-sm font-medium uppercase tracking-wider">Back to Home</span>
+        </a>
+        
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-4 sm:mb-6 tracking-tight leading-tight">
+            Our Expert Team
+        </h1>
+        <p class="text-base sm:text-lg md:text-xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed px-2">
+            Meet the compassionate professionals dedicated to your recovery journey. We combine clinical excellence
+            with holistic empathy.
+        </p>
+    </div>
+</section>
 
     <!-- ================= LEADERSHIP SECTION ================= -->
     <section class="py-24 max-w-7xl mx-auto px-6">
@@ -369,28 +384,6 @@
         <!-- Background Decorations -->
         <div class="absolute top-0 right-0 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 bg-accent-gold/10 rounded-full -mr-16 sm:-mr-24 md:-mr-32 -mt-16 sm:-mt-24 md:-mt-32"></div>
         <div class="absolute bottom-0 left-0 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 bg-white/5 rounded-full -ml-16 sm:-ml-24 md:-ml-32 -mb-16 sm:-mb-24 md:-mb-32"></div>
-        
-        <!-- Content -->
-        <div class="relative z-10">
-            <h2 class="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-4 sm:mb-6 leading-tight px-2">
-                Ready to Start Your Journey?
-            </h2>
-            <p class="text-white/80 text-base sm:text-lg md:text-xl mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto px-2">
-                Restoring Hope, Rebuilding Lives. Our experts are here to walk with you every step of the way.
-            </p>
-            
-            <!-- CTA Buttons -->
-            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-xl mx-auto">
-                <button class="w-full sm:w-auto bg-accent-gold hover:bg-white text-primary font-bold px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full transition-all flex items-center justify-center gap-2 shadow-lg text-sm sm:text-base">
-                    <span class="material-symbols-outlined text-xl">call</span> 
-                    <span>Call Our Hotline</span>
-                </button>
-                <button class="w-full sm:w-auto bg-transparent border-2 border-white/20 hover:bg-white/10 text-white font-bold px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full transition-all flex items-center justify-center gap-2 text-sm sm:text-base">
-                    <span class="material-symbols-outlined text-xl">mail</span> 
-                    <span>Contact Our Experts</span>
-                </button>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -478,7 +471,7 @@
     </div>
 
     <div class="footer-bottom">
-        <p>&copy; 2025 Pakistan Recovery Oasis. All Rights Reserved.</p>
+        <p>&copy; 2026 Pakistan Recovery Oasis. All Rights Reserved.</p>
         <p class="powered-by">Powered by <a href="codedclouds.org">CODEDCLOUDS</a></p>
     </div>
 </footer>
