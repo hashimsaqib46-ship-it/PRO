@@ -97,21 +97,36 @@
 
     <!-- ================= HERO SECTION ================= -->
     <!-- Added pt-28 so the content doesn't hide behind the fixed navbar -->
-    <section class="relative h-[70vh] w-full flex items-center justify-center overflow-hidden pt-28">
-        <div class="absolute inset-0 z-0">
-            <img alt="Compassionate healthcare professionals in a modern facility" class="w-full h-full object-cover"
-                data-alt="Modern mental health facility interior with natural light"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxVjfWLr1K6kZPsDxBJcJiyF09D6k3gokX1IsrU27B5_fxEFa--uDhytveHvDl590xSvHtKQY2quq-KxaP4VgMlBzRBCqOtowmXunKwOJDYAZs-yOzOhKmRXGmzveW60B1BfW48_8UFWBVRH9G2u3R63s-4gasz-E5w7o2a7-LUR5J5M-QKfPTwx_THzHLBHKmCmqMFJFmh6mafUmT_1uGWGsc1qktnbLQNwMH8pU7wlYDVxWDHh1EbLxgJ2nxXXioRrVmj_5rbBE" />
-            <div class="absolute inset-0 hero-gradient"></div>
-        </div>
-        <div class="relative z-10 text-center px-6 max-w-4xl">
-            <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight">Our Expert Team</h1>
-            <p class="text-xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed">
-                Meet the compassionate professionals dedicated to your recovery journey. We combine clinical excellence
-                with holistic empathy.
-            </p>
-        </div>
-    </section>
+  <section class="relative h-[70vh] w-full flex items-center justify-center overflow-hidden pt-28">
+    <!-- Background Image -->
+    <div class="absolute inset-0 z-0">
+        <img alt="Compassionate healthcare professionals in a modern facility" 
+            class="w-full h-full object-cover"
+            data-alt="Modern mental health facility interior with natural light"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxVjfWLr1K6kZPsDxBJcJiyF09D6k3gokX1IsrU27B5_fxEFa--uDhytveHvDl590xSvHtKQY2quq-KxaP4VgMlBzRBCqOtowmXunKwOJDYAZs-yOzOhKmRXGmzveW60B1BfW48_8UFWBVRH9G2u3R63s-4gasz-E5w7o2a7-LUR5J5M-QKfPTwx_THzHLBHKmCmqMFJFmh6mafUmT_1uGWGsc1qktnbLQNwMH8pU7wlYDVxWDHh1EbLxgJ2nxXXioRrVmj_5rbBE" />
+        <div class="absolute inset-0 hero-gradient"></div>
+    </div>
+    
+    <!-- Main Content with Back Button -->
+    <div class="relative z-10 text-center px-6 max-w-4xl">
+        <!-- Back to Home Link - Above Title -->
+        <a href="index.html" 
+           class="inline-flex items-center gap-2 text-white/70 hover:text-accent-gold mb-6 sm:mb-8 transition-colors duration-300 group">
+            <span class="material-symbols-outlined text-lg group-hover:-translate-x-1 transition-transform duration-300">
+                arrow_back
+            </span>
+            <span class="text-sm font-medium uppercase tracking-wider">Back to Home</span>
+        </a>
+        
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-4 sm:mb-6 tracking-tight leading-tight">
+            Our Expert Team
+        </h1>
+        <p class="text-base sm:text-lg md:text-xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed px-2">
+            Meet the compassionate professionals dedicated to your recovery journey. We combine clinical excellence
+            with holistic empathy.
+        </p>
+    </div>
+</section>
 
     <!-- ================= LEADERSHIP SECTION ================= -->
     <section class="py-24 max-w-7xl mx-auto px-6">
